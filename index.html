@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLS 분실물 센터</title>
+    <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+        <style>
+            .card {
+              width: 300px; /* 카드의 기본 너비 */
+              transition: transform 0.3s ease; /* 변형에 부드러운 애니메이션 효과 적용 */
+              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 그림자 효과 */
+              border-radius: 5px; /* 카드 테두리 둥글게 */
+              margin: 20px; /* 카드 간격 설정 */
+            }
+          
+            .card:hover {
+              transform: scale(1.1); /* 마우스를 올렸을 때 카드 크기 확대 */
+            }
+          
+            .card img {
+              width: 100%; /* 이미지가 카드 너비에 맞춰지도록 */
+              height: auto; /* 이미지 비율 유지 */
+              border-top-left-radius: 5px; /* 이미지 테두리 둥글게 */
+              border-top-right-radius: 5px; /* 이미지 테두리 둥글게 */
+            }
+          </style>
+</head>
+
+<body>
+ <div class="hero bg-success text-white py-5">
+    <div class="container text-center">
+        <h1>CLS 분실물 센터</h1>
+        <p class="lead">LOST & FOUND</p>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- 카드 1 -->
+        <div class="col">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjt9YbBAcY0wEyhkv3dWpdU9olrx3ALgbWw&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">가방</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">3월 28일</h6>
+                    <p class="card-text">남색 가방의 주인을 찾습니다.</p>
+                    <a href="https://blog.naver.com/cls0582" target="_blank" class="card-link">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <!-- 카드 2 -->
+<div class="col">
+    <div class="card">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">핸드폰</h5>
+            <h6 class="card-subtitle mb-2 text-muted">3월 27일</h6>
+            <p class="card-text">분홍색 핸드폰을 보관 중입니다.</p>
+            <a href="https://blog.naver.com/cls0582" target="_blank" class="card-link">자세히 보기</a>
+        </div>
+    </div>
+</div>
+
+<!-- 카드 3 -->
+<div class="col">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyOkpriVPjnkqB344w0XV4JfVCXiWZ8OJAw&s" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">지갑</h5>
+            <h6 class="card-subtitle mb-2 text-muted">3월 25일</h6>
+            <p class="card-text">갈색 지갑을 발견했습니다.</p>
+            <a href="https://blog.naver.com/cls0582" target="_blank" class="card-link">자세히 보기</a>
+        </div>
+    </div>
+</div>
+
+<!-- 카드 4 -->
+<div class="col">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwQlT5LSSYXwDeANZEVv1PZ_jnP-rM2po22A&s" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">열쇠</h5>
+            <h6 class="card-subtitle mb-2 text-muted">3월 4일</h6>
+            <p class="card-text">은색 열쇠입니다.</p>
+            <a href="https://blog.naver.com/cls0582" target="_blank" class="card-link">자세히 보기</a>
+        </div>
+    </div>
+</div>
+
+<!-- 카드 5 -->
+<div class="col">
+    <div class="card">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">노트북</h5>
+            <h6 class="card-subtitle mb-2 text-muted">2월 28일</h6>
+            <p class="card-text">회색 노트북을 분실했습니다.</p>
+            <a href="https://blog.naver.com/cls0582" target="_blank" class="card-link">자세히 보기</a>
+        </div>
+    </div>
+</div>
+
+<!-- 카드 6 -->
+<div class="col">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStmf3rJpXQAPQcQrE_McAvQo3l5FDUAOlDLw&s" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">이어폰</h5>
+            <h6 class="card-subtitle mb-2 text-muted">3월 21일</h6>
+            <p class="card-text">하얀색 이어폰을 찾습니다.</p>
+            <a href="https://blog.naver.com/cls0582" target="_blank" class="card-link">자세히 보기</a>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+</body>
+
+</html>
